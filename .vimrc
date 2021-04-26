@@ -11,7 +11,6 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
-Plug 'dylanaraps/wal.vim'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
 Plug 'jreybert/vimagit'
