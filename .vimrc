@@ -21,8 +21,6 @@ Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 call plug#end()
 
-colorscheme wal
-
 " :W sudo saves the file when the file is open in readonly mode
 command W w !sudo tee % > /dev/null
 
