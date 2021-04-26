@@ -25,6 +25,7 @@ base
 bash
 bat
 bc
+bcg729
 binutils
 bison
 bluez-libs
@@ -48,6 +49,7 @@ color-scripts-git
 colord
 coreutils
 cowsay
+cronie
 cryptsetup
 cups
 cups-filters
@@ -73,6 +75,8 @@ egl-wayland
 eglexternalplatform
 elfutils
 enchant
+ethtool
+ettercap
 exa
 expat
 faad2
@@ -96,6 +100,8 @@ gcc-libs
 gcr
 gdbm
 gdk-pixbuf2
+geoip
+geoip-database
 gettext
 giflib
 girara
@@ -140,6 +146,7 @@ hwloc
 hyphen
 iana-etc
 icu
+iftop
 ijs
 imagemagick
 imlib2
@@ -239,6 +246,7 @@ libluv
 libmad
 libmanette
 libmatroska
+libmaxminddb
 libmfx
 libmicrohttpd
 libmm-glib
@@ -251,6 +259,7 @@ libmpeg2
 libmspub
 libmwaw
 libndp
+libnet
 libnetfilter_conntrack
 libnewt
 libnfnetlink
@@ -366,12 +375,14 @@ links
 linux
 linux-api-headers
 linux-firmware
+linux-headers
 llvm-libs
 lm_sensors
 lpsolve
 lsd
 lsof
 lua52
+lua53
 luajit
 lxmenu-data
 lz4
@@ -402,6 +413,7 @@ nettle
 network-manager-applet
 networkmanager
 nm-connection-editor
+nmap
 npth
 nspr
 nss
@@ -421,6 +433,7 @@ os-prober
 p11-kit
 pacman
 pacman-mirrorlist
+pahole
 pam
 pambase
 pango
@@ -531,6 +544,7 @@ run-parts
 rust
 rxvt-unicode
 rxvt-unicode-terminfo
+sbc
 sdl2
 sed
 shaderc
@@ -539,6 +553,7 @@ shared-mime-info
 slang
 snappy
 sound-theme-freedesktop
+spandsp
 speex
 speexdsp
 spirv-tools
@@ -553,6 +568,7 @@ systemd-libs
 systemd-sysvcompat
 taglib
 tar
+tcpdump
 tdb
 telepathy-glib
 texinfo
@@ -581,6 +597,8 @@ wayland-protocols
 webkit2gtk
 which
 wireless_tools
+wireshark-cli
+wireshark-qt
 woff2
 wpa_supplicant
 wpebackend-fdo
