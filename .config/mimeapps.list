@@ -1,0 +1,42 @@
+[Default Applications]
+x-scheme-handler/http=midori-browser.desktop
+x-scheme-handler/https=midori-browser.desktop
+x-scheme-handler/ftp=userapp-midori.desktop
+x-scheme-handler/chrome=userapp-midori.desktop
+text/html=userapp-midori.desktop
+application/x-extension-htm=userapp-midori.desktop
+application/x-extension-html=userapp-midori.desktop
+application/x-extension-shtml=userapp-midori.desktop
+application/xhtml+xml=userapp-midori.desktop
+application/x-extension-xhtml=userapp-midori.desktop
+application/x-extension-xht=userapp-midori.desktop
+image/jpeg=viewnior.desktop;gpicview.desktop;
+image/png=viewnior.desktop;gpicview.desktop;
+text/plain=urxvt vim
+x-scheme-handler/mailto=userapp-mutt-FJPA00.desktop
+message/rfc822=userapp-Thunderbird.desktop
+application/pdf=libreoffice-draw.desktop
+application/x-bittorrent=deluge.desktop
+x-scheme-handler/kite=kite-copilot.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-midori.desktop;chromium.desktop;midori-browser.desktop;
+x-scheme-handler/https=userapp-midori.desktop;chromium.desktop;midori-browser.desktop;
+x-scheme-handler/ftp=userapp-midori.desktop;
+x-scheme-handler/chrome=userapp-midori.desktop;
+text/html=userapp-midori.desktop;
+application/x-extension-htm=userapp-midori.desktop;
+application/x-extension-html=userapp-midori.desktop;
+application/x-extension-shtml=userapp-midori.desktop;
+application/xhtml+xml=userapp-midori.desktop;
+application/x-extension-xhtml=userapp-midori.desktop;
+application/x-extension-xht=userapp-midori.desktop;
+image/jpeg=viewnior.desktop;gpicview.desktop;
+image/png=viewnior.desktop;gpicview.desktop;
+text/plain=urxvt vim;
+x-scheme-handler/mailto=userapp-mutt-FJPA00.desktop;userapp-Thunderbird.desktop;
+message/rfc822=userapp-Thunderbird.desktop;
+application/pdf=libreoffice-draw.desktop;
+application/x-bittorrent=deluge.desktop;
+
+[Removed Associations]
