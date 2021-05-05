@@ -31,6 +31,7 @@ bison
 bluez-libs
 boost-libs
 box2d
+bridge-utils
 brotli
 bubblewrap
 bzip2
@@ -42,17 +43,14 @@ cairo
 cantarell-fonts
 cbonsai
 cdparanoia
-clipit
 clucene
 cmatrix
 color-scripts-git
 colord
+containerd
 coreutils
-cowsay
 cronie
 cryptsetup
-cups
-cups-filters
 curl
 dash
 dav1d
@@ -66,6 +64,7 @@ dialog
 diffutils
 dkms
 dnssec-anchors
+docker
 doge
 dosfstools
 double-conversion
@@ -75,6 +74,7 @@ egl-wayland
 eglexternalplatform
 elfutils
 enchant
+espeak
 ethtool
 ettercap
 exa
@@ -82,7 +82,6 @@ expat
 faad2
 fakeroot
 ffmpeg
-fftw
 figlet
 file
 filesystem
@@ -106,6 +105,7 @@ gettext
 giflib
 girara
 git
+glances
 glib-networking
 glib2
 glibc
@@ -142,13 +142,10 @@ htop
 http-parser
 hunspell
 hwids
-hwloc
 hyphen
 iana-etc
 icu
 iftop
-ijs
-imagemagick
 imlib2
 intel-ucode
 iproute2
@@ -180,13 +177,9 @@ libasyncns
 libatomic_ops
 libavc1394
 libbluray
-libcaca
 libcanberra
 libcap
 libcap-ng
-libcddb
-libcdio
-libcdio-paranoia
 libcdr
 libcloudproviders
 libcmis
@@ -200,8 +193,6 @@ libdbusmenu-gtk3
 libdca
 libdrm
 libdvbpsi
-libdvdnav
-libdvdread
 libe-book
 libebml
 libedit
@@ -240,8 +231,6 @@ libjpeg-turbo
 libksba
 liblangtag
 libldap
-liblouis
-liblqr
 libluv
 libmad
 libmanette
@@ -277,7 +266,6 @@ libomxil-bellagio
 liborcus
 libp11-kit
 libpagemaker
-libpaper
 libpcap
 libpciaccess
 libpeas
@@ -290,7 +278,6 @@ libproxy
 libpsl
 libpulse
 libqxp
-libraqm
 libraw1394
 libreoffice-fresh
 librevenge
@@ -398,12 +385,11 @@ minizip
 mkinitcpio
 mkinitcpio-busybox
 mobile-broadband-provider-info
+moc
 mpfr
-mpv
 msgpack-c
 mtdev
 mtools
-mujs
 ncurses
 neofetch
 neon
@@ -424,7 +410,6 @@ openal
 opencore-amr
 opendoas
 openjpeg2
-openmpi
 openssh
 openssl
 opus
@@ -433,6 +418,7 @@ os-prober
 p11-kit
 pacman
 pacman-mirrorlist
+pacman4console
 pahole
 pam
 pambase
@@ -455,6 +441,7 @@ polkit
 poppler
 poppler-glib
 popt
+portaudio
 procps-ng
 psmisc
 pup
@@ -469,6 +456,7 @@ python-contextlib2
 python-cryptography
 python-distlib
 python-distro
+python-future
 python-html5lib
 python-idna
 python-msgpack
@@ -478,6 +466,7 @@ python-pep517
 python-pip
 python-ply
 python-progress
+python-psutil
 python-pycparser
 python-pyopenssl
 python-pyparsing
@@ -490,7 +479,6 @@ python-six
 python-toml
 python-urllib3
 python-webencodings
-qpdf
 qt5-3d
 qt5-base
 qt5-charts
@@ -539,8 +527,8 @@ readline
 recode
 redland
 rest
-rubberband
 run-parts
+runc
 rust
 rxvt-unicode
 rxvt-unicode-terminfo
@@ -577,7 +565,6 @@ tslib
 ttf-inconsolata
 tuxi-git
 tzdata
-uchardet
 unclutter
 unibilium
 unzip
@@ -617,7 +604,6 @@ xdg-user-dirs
 xdg-utils
 xf86-input-libinput
 xf86-video-intel
-xf86-video-nouveau
 xf86-video-vesa
 xkeyboard-config
 xmlsec
@@ -675,7 +661,6 @@ xorg-xwud
 xorgproto
 xvidcore
 xz
-youtube-dl
 zathura
 zathura-pdf-poppler
 zeitgeist
