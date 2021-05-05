@@ -384,6 +384,7 @@ midori
 minizip
 mkinitcpio
 mkinitcpio-busybox
+mlocate
 mobile-broadband-provider-info
 moc
 mpfr
