@@ -550,6 +550,7 @@ sqlite
 srt
 startup-notification
 sudo
+svt-av1
 sxiv
 sysfsutils
 systemd
