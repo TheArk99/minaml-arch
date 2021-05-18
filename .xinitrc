@@ -4,4 +4,6 @@ xautolock -time 10 -locker slock &
 slstatus &
 rm -rf /home/noah/.local/share/moonphase
 rm -rf /home/noah/.local/share/weatherreport
+sxhkd &
+setxkbmap -option caps:swapescape
 exec dwm
