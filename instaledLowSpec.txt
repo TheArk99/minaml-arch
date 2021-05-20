@@ -162,6 +162,7 @@ js78
 json-c
 json-glib
 kbd
+keepassxc
 keyutils
 kmod
 krb5
@@ -484,6 +485,7 @@ python-six
 python-toml
 python-urllib3
 python-webencodings
+qrencode
 qt5-3d
 qt5-base
 qt5-charts
@@ -523,6 +525,7 @@ qt5-websockets
 qt5-webview
 qt5-x11extras
 qt5-xmlpatterns
+quazip
 ranger
 raptor
 rasqal
@@ -669,6 +672,9 @@ xorg-xwud
 xorgproto
 xvidcore
 xz
+yubico-c
+yubico-c-client
+yubikey-personalization
 zathura
 zathura-pdf-poppler
 zeitgeist
