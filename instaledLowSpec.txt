@@ -226,6 +226,7 @@ libid3tag
 libidn
 libidn2
 libiec61883
+libimagequant
 libimobiledevice
 libindicator-gtk3
 libinput
@@ -454,6 +455,7 @@ pup
 pyside2
 python
 python-appdirs
+python-attrs
 python-cachecontrol
 python-cffi
 python-chardet
@@ -462,6 +464,7 @@ python-contextlib2
 python-cryptography
 python-distlib
 python-distro
+python-docopt
 python-future
 python-html5lib
 python-idna
@@ -469,6 +472,7 @@ python-msgpack
 python-ordered-set
 python-packaging
 python-pep517
+python-pillow
 python-pip
 python-ply
 python-progress
@@ -485,6 +489,7 @@ python-six
 python-toml
 python-urllib3
 python-webencodings
+python-xlib
 qrencode
 qt5-3d
 qt5-base
@@ -576,6 +581,7 @@ tslib
 ttf-inconsolata
 tuxi-git
 tzdata
+ueberzug
 unclutter
 unibilium
 unzip
