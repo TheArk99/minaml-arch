@@ -51,3 +51,7 @@ setopt auto_list
 #export PROMPT='%B%F{yellow}%~>%b%f '
 # END zsh data
 # put your code here
+
+
+#this is to make zsh preform more like bash in that it does not show % at the end of unfinished printed lines
+unsetopt prompt_cr prompt_sp
