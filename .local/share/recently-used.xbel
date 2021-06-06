@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/noah/Documents/school/bible/semester%202/bindercheck3/Encounter%2010-2A%20ApxC%20Word%20Study%20Sheet.pdf" added="2021-05-14T17:34:03.116527Z" modified="2021-05-14T17:54:31.044719Z" visited="2021-05-14T17:34:03.116529Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.1" exec="&apos;soffice %u&apos;" modified="2021-05-14T17:54:31.044715Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/noah/Documents/school/bible/semester%202/bindercheck3/Encounter%2010-2A%20ApxF%20Galilee%20Facts.pdf" added="2021-05-18T17:51:48.800843Z" modified="2021-05-18T18:05:31.016424Z" visited="2021-05-18T17:51:48.800846Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.1" exec="&apos;soffice %u&apos;" modified="2021-05-18T18:05:31.016419Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/noah/Documents/school/bible/semester%25202/bindercheck3/Encounter%252010-2A%2520ApxF%2520Galilee%2520Facts.pdf" added="2021-05-18T17:51:52.366786Z" modified="2021-05-18T18:05:34.958439Z" visited="2021-05-18T17:51:52.366788Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.1" exec="&apos;soffice %u&apos;" modified="2021-05-18T18:05:34.958436Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/noah/Documents/school/bible/semester%202/bindercheck3/Preaching%20vs%20Teaching.docx" added="2021-05-18T18:18:57.201827Z" modified="2021-05-18T18:18:57.201841Z" visited="2021-05-18T18:18:57.201830Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.1" exec="&apos;soffice %u&apos;" modified="2021-05-18T18:18:57.201834Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/noah/Documents/school/bible/semester%25202/bindercheck3/Preaching%2520vs%2520Teaching.docx" added="2021-05-18T18:18:58.742041Z" modified="2021-06-01T20:57:04.414698Z" visited="2021-05-18T18:18:58.742042Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.1" exec="&apos;soffice %u&apos;" modified="2021-06-01T20:57:04.414692Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/noah/Documents/school/bible/semester%202/bindercheck3/Jesus%20the%20Radical,Revolutionary,%20Revelatory.docx" added="2021-05-24T17:50:04.799626Z" modified="2021-05-25T17:50:59.181827Z" visited="2021-05-24T17:50:04.799629Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.1" exec="&apos;soffice %u&apos;" modified="2021-05-25T17:50:59.181822Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/noah/Documents/school/bible/semester%25202/bindercheck3/Jesus%2520the%2520Radical,Revolutionary,%2520Revelatory.docx" added="2021-05-24T17:50:06.603974Z" modified="2021-06-01T20:59:49.071727Z" visited="2021-05-24T17:50:06.603976Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.1" exec="&apos;soffice %u&apos;" modified="2021-06-01T20:59:49.071721Z" count="21"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/noah/Documents/school/bible/semester%25202/bindercheck3/LONGING%2520FOR%2520A%2520MESSIAH.docx" added="2021-06-01T20:40:41.525028Z" modified="2021-06-01T20:40:44.888885Z" visited="2021-06-01T20:40:41.525031Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.1" exec="&apos;soffice %u&apos;" modified="2021-06-01T20:40:44.888879Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

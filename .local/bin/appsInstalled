@@ -1,0 +1,2 @@
+#!/bin/sh
+pacman -Qq > /home/noah/instaledLowSpec.txt

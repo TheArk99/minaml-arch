@@ -1,0 +1,15 @@
+2021-04-26 09:01:25,762 -- INFO -- Start Glances 3.1.5
+2021-04-26 09:01:25,762 -- INFO -- CPython 3.9.4 and psutil 5.8.0 detected
+2021-04-26 09:01:25,769 -- INFO -- Search glances.conf file in /home/noah/.config/glances/glances.conf
+2021-04-26 09:01:25,769 -- INFO -- Search glances.conf file in /etc/glances/glances.conf
+2021-04-26 09:01:25,925 -- INFO -- Start GlancesStandalone mode
+2021-04-26 09:01:25,931 -- WARNING -- Missing Python Lib (No module named 'netifaces'), IP plugin is disabled
+2021-04-26 09:01:25,932 -- WARNING -- Missing Python Lib (No module named 'py3nvml'), Nvidia GPU plugin is disabled
+2021-04-26 09:01:26,886 -- WARNING -- Error loading Docker Python Lib. Docker plugin is disabled (No module named 'docker')
+2021-04-26 09:01:26,887 -- ERROR -- docker plugin - Can not connect to Docker (name 'docker' is not defined)
+2021-04-26 09:01:26,905 -- WARNING -- Missing Python Lib (No module named 'wifi'), Wifi plugin is disabled
+2021-04-26 09:01:26,905 -- WARNING -- Wifi lib is not compliant with Python 3, Wifi plugin is disabled
+2021-04-26 09:01:26,911 -- WARNING -- Missing Python Lib (No module named 'pymdstat'), Raid plugin is disabled
+2021-04-26 09:01:26,912 -- WARNING -- Missing Python Lib (No module named 'pySMART'), HDD Smart plugin is disabled
+2021-04-26 09:01:26,914 -- WARNING -- Sparklines module not found (No module named 'sparklines')
+2021-04-26 09:01:26,914 -- WARNING -- Missing Python Lib (No module named 'cpuinfo'), Quicklook plugin will not display CPU info

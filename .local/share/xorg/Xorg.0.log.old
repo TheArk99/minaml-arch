@@ -1,0 +1,295 @@
+[    69.215] (WW) Failed to open protocol names file lib/xorg/protocol.txt
+[    69.217] 
+X.Org X Server 1.20.11
+X Protocol Version 11, Revision 0
+[    69.217] Build Operating System: Linux Archlinux
+[    69.217] Current Operating System: Linux archtop 5.12.8-arch1-1 #1 SMP PREEMPT Fri, 28 May 2021 15:10:20 +0000 x86_64
+[    69.217] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=10068def-1a8f-457d-bef3-193b114b6152 rw loglevel=3 quiet
+[    69.218] Build Date: 13 April 2021  03:12:10PM
+[    69.218]  
+[    69.218] Current version of pixman: 0.40.0
+[    69.218] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    69.218] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    69.220] (==) Log file: "/home/noah/.local/share/xorg/Xorg.0.log", Time: Thu Jun  3 10:37:22 2021
+[    69.303] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    69.332] (==) No Layout section.  Using the first Screen section.
+[    69.332] (==) No screen section available. Using defaults.
+[    69.332] (**) |-->Screen "Default Screen Section" (0)
+[    69.332] (**) |   |-->Monitor "<default monitor>"
+[    69.333] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    69.333] (==) Automatically adding devices
+[    69.333] (==) Automatically enabling devices
+[    69.333] (==) Automatically adding GPU devices
+[    69.333] (==) Automatically binding GPU devices
+[    69.333] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    69.389] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[    69.389] 	Entry deleted from font path.
+[    69.395] (==) FontPath set to:
+	/usr/share/fonts/misc,
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/OTF,
+	/usr/share/fonts/100dpi,
+	/usr/share/fonts/75dpi
+[    69.395] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    69.395] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    69.395] (II) Module ABI versions:
+[    69.395] 	X.Org ANSI C Emulation: 0.4
+[    69.395] 	X.Org Video Driver: 24.1
+[    69.395] 	X.Org XInput driver : 24.1
+[    69.395] 	X.Org Server Extension : 10.0
+[    69.396] (++) using VT number 1
+
+[    69.399] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_32
+[    69.401] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    69.402] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 10 paused 0
+[    69.414] (--) PCI:*(0@0:2:0) 8086:27a2:104d:81e6 rev 3, Mem @ 0xf8300000/524288, 0xd0000000/268435456, 0xf8400000/262144, I/O @ 0x00001800/8, BIOS @ 0x????????/131072
+[    69.414] (--) PCI: (0@0:2:1) 8086:27a6:104d:81e6 rev 3, Mem @ 0xf8380000/524288
+[    69.414] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    69.414] (II) LoadModule: "glx"
+[    69.424] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    69.525] (II) Module glx: vendor="X.Org Foundation"
+[    69.525] 	compiled for 1.20.11, module version = 1.0.0
+[    69.525] 	ABI class: X.Org Server Extension, version 10.0
+[    69.526] (==) Matched intel as autoconfigured driver 0
+[    69.526] (==) Matched modesetting as autoconfigured driver 1
+[    69.526] (==) Matched fbdev as autoconfigured driver 2
+[    69.526] (==) Matched vesa as autoconfigured driver 3
+[    69.526] (==) Assigned the driver to the xf86ConfigLayout
+[    69.526] (II) LoadModule: "intel"
+[    69.526] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[    69.581] (II) Module intel: vendor="X.Org Foundation"
+[    69.581] 	compiled for 1.20.10, module version = 2.99.917
+[    69.581] 	Module class: X.Org Video Driver
+[    69.581] 	ABI class: X.Org Video Driver, version 24.1
+[    69.581] (II) LoadModule: "modesetting"
+[    69.581] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    69.614] (II) Module modesetting: vendor="X.Org Foundation"
+[    69.614] 	compiled for 1.20.11, module version = 1.20.11
+[    69.614] 	Module class: X.Org Video Driver
+[    69.614] 	ABI class: X.Org Video Driver, version 24.1
+[    69.614] (II) LoadModule: "fbdev"
+[    69.615] (WW) Warning, couldn't open module fbdev
+[    69.615] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[    69.615] (II) LoadModule: "vesa"
+[    69.615] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    69.626] (II) Module vesa: vendor="X.Org Foundation"
+[    69.626] 	compiled for 1.20.9, module version = 2.5.0
+[    69.626] 	Module class: X.Org Video Driver
+[    69.626] 	ABI class: X.Org Video Driver, version 24.1
+[    69.626] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[    69.627] (II) intel: Driver for Intel(R) HD Graphics
+[    69.627] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[    69.627] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[    69.627] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    69.627] (II) VESA: driver for VESA chipsets: vesa
+[    69.627] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[    69.637] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20201103
+[    69.637] (II) intel(0): SNA compiled from 2.99.917-916-g31486f40
+[    69.657] (WW) Falling back to old probe method for modesetting
+[    69.657] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    69.667] (--) intel(0): Integrated Graphics Chipset: Intel(R) 945GM
+[    69.667] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3; using a maximum of 2 threads
+[    69.667] (II) intel(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    69.668] (==) intel(0): Depth 24, (--) framebuffer bpp 32
+[    69.668] (==) intel(0): RGB weight 888
+[    69.668] (==) intel(0): Default visual is TrueColor
+[    69.669] (II) intel(0): Output LVDS1 has no monitor section
+[    69.670] (**) intel(0): Found backlight control interface intel_backlight (type 'raw') for output LVDS1
+[    69.670] (II) intel(0): Enabled output LVDS1
+[    69.671] (II) intel(0): Output VGA1 has no monitor section
+[    69.671] (II) intel(0): Enabled output VGA1
+[    69.671] (II) intel(0): Output TV1 has no monitor section
+[    69.671] (II) intel(0): Enabled output TV1
+[    69.671] (--) intel(0): Using a maximum size of 256x256 for hardware cursors
+[    69.672] (II) intel(0): Output VIRTUAL1 has no monitor section
+[    69.672] (II) intel(0): Enabled output VIRTUAL1
+[    69.672] (--) intel(0): Output LVDS1 using initial mode 1280x800 on pipe 1
+[    69.672] (==) intel(0): TearFree disabled
+[    69.672] (==) intel(0): Using gamma correction (1.0, 1.0, 1.0)
+[    69.672] (==) intel(0): DPI set to (96, 96)
+[    69.672] (II) Loading sub module "dri3"
+[    69.672] (II) LoadModule: "dri3"
+[    69.672] (II) Module "dri3" already built-in
+[    69.672] (II) Loading sub module "dri2"
+[    69.672] (II) LoadModule: "dri2"
+[    69.672] (II) Module "dri2" already built-in
+[    69.672] (II) Loading sub module "present"
+[    69.672] (II) LoadModule: "present"
+[    69.672] (II) Module "present" already built-in
+[    69.672] (II) UnloadModule: "modesetting"
+[    69.672] (II) Unloading modesetting
+[    69.673] (II) UnloadModule: "vesa"
+[    69.673] (II) Unloading vesa
+[    69.698] (II) intel(0): SNA initialized with Alviso (gen3) backend
+[    69.698] (==) intel(0): Backing store enabled
+[    69.698] (==) intel(0): Silken mouse disabled
+[    69.698] (II) intel(0): HW Cursor enabled
+[    69.699] (==) intel(0): DPMS enabled
+[    69.700] (==) intel(0): Display hotplug detection enabled
+[    69.702] (II) intel(0): [XvMC] i915_xvmc driver initialized.
+[    69.702] (II) intel(0): [DRI2] Setup complete
+[    69.702] (II) intel(0): [DRI2]   DRI driver: i915
+[    69.702] (II) intel(0): [DRI2]   VDPAU driver: va_gl
+[    69.702] (II) intel(0): direct rendering: DRI2 enabled
+[    69.702] (II) intel(0): hardware support for Present enabled
+[    69.702] (II) Initializing extension Generic Event Extension
+[    69.702] (II) Initializing extension SHAPE
+[    69.702] (II) Initializing extension MIT-SHM
+[    69.702] (II) Initializing extension XInputExtension
+[    69.703] (II) Initializing extension XTEST
+[    69.703] (II) Initializing extension BIG-REQUESTS
+[    69.703] (II) Initializing extension SYNC
+[    69.703] (II) Initializing extension XKEYBOARD
+[    69.703] (II) Initializing extension XC-MISC
+[    69.703] (II) Initializing extension SECURITY
+[    69.703] (II) Initializing extension XFIXES
+[    69.703] (II) Initializing extension RENDER
+[    69.703] (II) Initializing extension RANDR
+[    69.703] (II) Initializing extension COMPOSITE
+[    69.704] (II) Initializing extension DAMAGE
+[    69.704] (II) Initializing extension MIT-SCREEN-SAVER
+[    69.704] (II) Initializing extension DOUBLE-BUFFER
+[    69.704] (II) Initializing extension RECORD
+[    69.704] (II) Initializing extension DPMS
+[    69.704] (II) Initializing extension Present
+[    69.704] (II) Initializing extension DRI3
+[    69.704] (II) Initializing extension X-Resource
+[    69.704] (II) Initializing extension XVideo
+[    69.704] (II) Initializing extension XVideo-MotionCompensation
+[    69.704] (II) Initializing extension GLX
+[    70.224] (II) AIGLX: Loaded and initialized i915
+[    70.224] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    70.224] (II) Initializing extension XFree86-VidModeExtension
+[    70.224] (II) Initializing extension XFree86-DGA
+[    70.224] (II) Initializing extension XFree86-DRI
+[    70.224] (II) Initializing extension DRI2
+[    70.281] (II) intel(0): switch to mode 1280x800@60.0 on LVDS1 using pipe 1, position (0, 0), rotation normal, reflection none
+[    70.290] (II) intel(0): Setting screen physical size to 338 x 211
+[    70.920] (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+[    70.920] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    70.920] (II) LoadModule: "libinput"
+[    70.921] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    70.970] (II) Module libinput: vendor="X.Org Foundation"
+[    70.970] 	compiled for 1.20.11, module version = 1.0.1
+[    70.971] 	Module class: X.Org XInput Driver
+[    70.971] 	ABI class: X.Org XInput driver, version 24.1
+[    70.971] (II) Using input driver 'libinput' for 'Video Bus'
+[    70.973] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 15 paused 0
+[    70.973] (**) Video Bus: always reports core events
+[    70.973] (**) Option "Device" "/dev/input/event3"
+[    70.974] (**) Option "_source" "server/udev"
+[    71.102] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[    71.102] (II) event3  - Video Bus: device is a keyboard
+[    71.103] (II) event3  - Video Bus: device removed
+[    71.103] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:01/input/input4/event3"
+[    71.103] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[    71.106] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[    71.106] (II) event3  - Video Bus: device is a keyboard
+[    71.109] (II) config/udev: Adding input device Sony Vaio Keys (/dev/input/event4)
+[    71.109] (**) Sony Vaio Keys: Applying InputClass "libinput keyboard catchall"
+[    71.109] (II) Using input driver 'libinput' for 'Sony Vaio Keys'
+[    71.111] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 18 paused 0
+[    71.111] (**) Sony Vaio Keys: always reports core events
+[    71.111] (**) Option "Device" "/dev/input/event4"
+[    71.111] (**) Option "_source" "server/udev"
+[    71.114] (II) event4  - Sony Vaio Keys: is tagged by udev as: Keyboard Joystick
+[    71.115] (II) event4  - Sony Vaio Keys: device is a keyboard
+[    71.115] (II) event4  - Sony Vaio Keys: device removed
+[    71.115] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:34/SNY6001:00/input/input5/event4"
+[    71.115] (II) XINPUT: Adding extended input device "Sony Vaio Keys" (type: KEYBOARD, id 7)
+[    71.118] (II) event4  - Sony Vaio Keys: is tagged by udev as: Keyboard Joystick
+[    71.118] (II) event4  - Sony Vaio Keys: device is a keyboard
+[    71.121] (II) config/udev: Adding input device Sony Vaio Jogdial (/dev/input/event5)
+[    71.121] (**) Sony Vaio Jogdial: Applying InputClass "libinput pointer catchall"
+[    71.121] (II) Using input driver 'libinput' for 'Sony Vaio Jogdial'
+[    71.123] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 19 paused 0
+[    71.123] (**) Sony Vaio Jogdial: always reports core events
+[    71.123] (**) Option "Device" "/dev/input/event5"
+[    71.123] (**) Option "_source" "server/udev"
+[    71.127] (II) event5  - Sony Vaio Jogdial: is tagged by udev as: Mouse
+[    71.128] (II) event5  - Sony Vaio Jogdial: device is a pointer
+[    71.128] (II) event5  - Sony Vaio Jogdial: device removed
+[    71.128] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:34/SNY6001:00/input/input6/event5"
+[    71.128] (II) XINPUT: Adding extended input device "Sony Vaio Jogdial" (type: MOUSE, id 8)
+[    71.129] (**) Option "AccelerationScheme" "none"
+[    71.129] (**) Sony Vaio Jogdial: (accel) selected scheme none/0
+[    71.129] (**) Sony Vaio Jogdial: (accel) acceleration factor: 2.000
+[    71.129] (**) Sony Vaio Jogdial: (accel) acceleration threshold: 4
+[    71.132] (II) event5  - Sony Vaio Jogdial: is tagged by udev as: Mouse
+[    71.133] (II) event5  - Sony Vaio Jogdial: device is a pointer
+[    71.135] (II) config/udev: Adding input device Sony Vaio Jogdial (/dev/input/mouse0)
+[    71.135] (II) No input driver specified, ignoring this device.
+[    71.135] (II) This device may have been added with another device file.
+[    71.137] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    71.137] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    71.137] (II) Using input driver 'libinput' for 'Power Button'
+[    71.138] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 20 paused 0
+[    71.138] (**) Power Button: always reports core events
+[    71.138] (**) Option "Device" "/dev/input/event1"
+[    71.138] (**) Option "_source" "server/udev"
+[    71.140] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    71.140] (II) event1  - Power Button: device is a keyboard
+[    71.141] (II) event1  - Power Button: device removed
+[    71.141] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[    71.141] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 9)
+[    71.143] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    71.143] (II) event1  - Power Button: device is a keyboard
+[    71.145] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    71.145] (II) No input driver specified, ignoring this device.
+[    71.145] (II) This device may have been added with another device file.
+[    71.147] (II) config/udev: Adding input device HDA Intel Headphone (/dev/input/event8)
+[    71.147] (II) No input driver specified, ignoring this device.
+[    71.147] (II) This device may have been added with another device file.
+[    71.148] (II) config/udev: Adding input device HDA Intel Mic (/dev/input/event7)
+[    71.148] (II) No input driver specified, ignoring this device.
+[    71.148] (II) This device may have been added with another device file.
+[    71.149] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    71.149] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    71.149] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    71.150] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 21 paused 0
+[    71.150] (**) AT Translated Set 2 keyboard: always reports core events
+[    71.150] (**) Option "Device" "/dev/input/event2"
+[    71.151] (**) Option "_source" "server/udev"
+[    71.152] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    71.153] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    71.154] (II) event2  - AT Translated Set 2 keyboard: device removed
+[    71.154] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[    71.154] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 10)
+[    71.156] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    71.156] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    71.158] (II) config/udev: Adding input device AlpsPS/2 ALPS GlidePoint (/dev/input/event9)
+[    71.158] (**) AlpsPS/2 ALPS GlidePoint: Applying InputClass "libinput touchpad catchall"
+[    71.158] (II) Using input driver 'libinput' for 'AlpsPS/2 ALPS GlidePoint'
+[    71.160] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 22 paused 0
+[    71.160] (**) AlpsPS/2 ALPS GlidePoint: always reports core events
+[    71.160] (**) Option "Device" "/dev/input/event9"
+[    71.160] (**) Option "_source" "server/udev"
+[    71.163] (II) event9  - AlpsPS/2 ALPS GlidePoint: is tagged by udev as: Touchpad
+[    71.164] (II) event9  - AlpsPS/2 ALPS GlidePoint: no resolution or size hints, assuming a size of 69x50mm
+[    71.168] (II) event9  - AlpsPS/2 ALPS GlidePoint: device is a touchpad
+[    71.168] (II) event9  - AlpsPS/2 ALPS GlidePoint: device removed
+[    71.169] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input8/event9"
+[    71.169] (II) XINPUT: Adding extended input device "AlpsPS/2 ALPS GlidePoint" (type: TOUCHPAD, id 11)
+[    71.171] (**) Option "AccelerationScheme" "none"
+[    71.171] (**) AlpsPS/2 ALPS GlidePoint: (accel) selected scheme none/0
+[    71.171] (**) AlpsPS/2 ALPS GlidePoint: (accel) acceleration factor: 2.000
+[    71.171] (**) AlpsPS/2 ALPS GlidePoint: (accel) acceleration threshold: 4
+[    71.173] (II) event9  - AlpsPS/2 ALPS GlidePoint: is tagged by udev as: Touchpad
+[    71.174] (II) event9  - AlpsPS/2 ALPS GlidePoint: no resolution or size hints, assuming a size of 69x50mm
+[    71.177] (II) event9  - AlpsPS/2 ALPS GlidePoint: device is a touchpad
+[    71.179] (II) config/udev: Adding input device AlpsPS/2 ALPS GlidePoint (/dev/input/mouse1)
+[    71.179] (II) No input driver specified, ignoring this device.
+[    71.179] (II) This device may have been added with another device file.
+[    71.180] (II) config/udev: Adding input device PC Speaker (/dev/input/event6)
+[    71.180] (II) No input driver specified, ignoring this device.
+[    71.180] (II) This device may have been added with another device file.
